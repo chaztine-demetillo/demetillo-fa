@@ -1,0 +1,25 @@
+{
+  "bindings": [
+    {
+      "name": "chazBlob",
+      "path": "source-container/{name}",
+      "connection": "techonboarding02_STORAGE",
+      "direction": "in",
+      "type": "blobTrigger"
+    },
+    {
+      "name": "chazBlob",
+      "path": "source-container/{name}",
+      "connection": "techonboarding02_STORAGE",
+      "direction": "in",
+      "type": "blob"
+    },
+    {
+      "name": "chaztOutputBlob",
+      "path": "destination-container/{rand-guid}",
+      "connection": "techonboarding02_STORAGE2",
+      "direction": "out",
+      "type": "blob"
+    }
+  ]
+}
